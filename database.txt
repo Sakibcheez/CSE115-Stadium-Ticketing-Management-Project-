@@ -1,0 +1,42 @@
+
+	
+
+
+	
+
+	MatchNo.: 5
+	Name:Sakib
+	Ticket quantity: 9
+	Ticket price: 12000 taka
+	General Ticket: 3
+	Internartional Ticket: 0
+	V.I.P Ticket: 3
+	Phone Number : 3
+
+	MatchNo.: 5
+	Name:SAkib
+	Ticket quantity: 7
+	Ticket price: 10500 taka
+	General Ticket: 2
+	Internartional Ticket: 2
+	V.I.P Ticket :3
+	Phone Number : 1950466202
+
+	MatchNo.: 7
+	Name:Sakib
+	Ticket quantity: 7
+	Ticket price: 9000 taka
+	General Ticket: 2
+	Internartional Ticket: 3
+	V.I.P Ticket: 2
+
+	Phone Number : 1950466205
+
+	MatchNo.: 3
+	Name:Sakib
+	Ticket quantity: 15
+	Ticket price: 20000 taka
+	General Ticket: 5
+	Internartional Ticket: 5
+	V.I.P Ticket :5
+	Phone Number : 1950466202
