@@ -2,7 +2,7 @@
 #define SPLASH_H
 
 #include <stdio.h>
-#include<unistd.h>
+#include<unistd.h> //standard symbolic constants and types
 
 
 void printSplashScreen(void)
