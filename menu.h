@@ -443,7 +443,7 @@ void View_info(void)
     	}
 
     char ch[500];
-   
+
     while(fgets(ch,500,ptr))
 	{
         printf("%s",ch);
@@ -452,6 +452,10 @@ void View_info(void)
 
 	    fclose(ptr);
 
+    printf("\n\n\t\tPRESS ANY KEY GO  HOMEPAGE....");
+    fflush(stdin);
+    getchar();
+    homepage();
 }
 
 
