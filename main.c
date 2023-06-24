@@ -10,12 +10,12 @@ int main(void)
 {
     int choice;
    //system("COLOR F0");
-   printSplashScreen();
-   sleep(3);
+    printSplashScreen();
+    sleep(3);
     system("cls");
 
 
-   LoginProcess();
+    LoginProcess();
 
     sleep(1);
     system("cls");
