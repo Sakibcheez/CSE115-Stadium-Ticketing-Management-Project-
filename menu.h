@@ -339,7 +339,7 @@ void payment()
             exit(1);
         }
         // printf("\nFile opened successfully .\n"); // optional
-        fprintf(fp1,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket :%d\n\tPhone Number : %d\n",matchno,n,tottic,sum,gtic,itic,vtic,m);
+        fprintf(fp1,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket :%d\n\tPhone Number : %d\n\tAccount Number: %d\n\tBank Name: %s\n\tBranch Name: %s\n",matchno,n,tottic,sum,gtic,itic,vtic,m,a,s,b11);
         fclose(fp1);
         break ;
 
@@ -377,7 +377,7 @@ void payment()
             exit(1);
         }
 
-        fprintf(fp2,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket: %d\n\tPhone Number : %d\n",matchno,n1,tottic,sum,gtic,itic,vtic,m1);
+        fprintf(fp2,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket: %d\n\tPhone Number : %d\n\tCredit Card Number : %d\n",matchno,n1,tottic,sum,gtic,itic,vtic,m1,a1);
         fclose(fp2);
 
         break;
@@ -415,7 +415,7 @@ void payment()
             exit(1);
         }
        // printf("\nFile opened successfully .\n");  //optional
-        fprintf(fp3,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket: %d\n\tPhone Number : %d\n",matchno,n2,tottic,sum,gtic,itic,vtic,m2);
+        fprintf(fp3,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket: %d\n\tPhone Number : %d\n\tDebit Card Number : %d\n",matchno,n2,tottic,sum,gtic,itic,vtic,m2,a2);
         fclose(fp3);
         break;
     }
