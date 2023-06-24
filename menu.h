@@ -44,7 +44,7 @@ void homepage()
        ticket();
        break;
     case 4:
-      // payment();
+      View_info();
        break;
     case 5:
       LoginProcess();
@@ -426,6 +426,32 @@ void payment()
     getchar();
     system("cls");
     homepage();
+}
+
+void View_info(void)
+{
+
+
+    FILE *ptr;
+
+    ptr = fopen("database.txt","r");
+
+    if(ptr == NULL)
+	{
+        printf("Failed to open the file \n");
+        return ;
+    	}
+
+    char ch[500];
+   
+    while(fgets(ch,500,ptr))
+	{
+        printf("%s",ch);
+        usleep(100000);
+    	}
+
+	    fclose(ptr);
+
 }
 
 
