@@ -377,7 +377,7 @@ void payment()
             exit(1);
         }
 
-        fprintf(fp2,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket: %d\n\n\tPhone Number : %d\n",matchno,n1,tottic,sum,gtic,itic,vtic,m1);
+        fprintf(fp2,"\n\tMatchNo.: %d\n\tName:%s\n\tTicket quantity: %d\n\tTicket price: %d taka\n\tGeneral Ticket: %d\n\tInternartional Ticket: %d\n\tV.I.P Ticket: %d\n\tPhone Number : %d\n",matchno,n1,tottic,sum,gtic,itic,vtic,m1);
         fclose(fp2);
 
         break;
