@@ -1,3 +1,7 @@
+//Sakib Ahmed Shishir Project
+//CSE115-4
+//Stadium Ticketing Management system
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -9,10 +13,10 @@
 int main(void)
 {
     int choice;
-   //system("COLOR F0");
-   // printSplashScreen();
-    //sleep(3);
-   // system("cls");
+  //  system("COLOR F0");
+    printSplashScreen();
+    sleep(3);
+    system("cls");
 
 
     LoginProcess();
