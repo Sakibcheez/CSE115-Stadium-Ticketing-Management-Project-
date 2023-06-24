@@ -45,8 +45,8 @@ void LoginProcess(void)
 
                        if(checkLogin(user.username,user.password))
             {
-                          printf("\t\t\tLogin successful!\n");
-                          printf("\t\t\tWelcome %s\n", user.username); // Welcome msg
+                          printf("\t\t\t\tLogin successful!\n");
+                          printf("\t\t\t\tWelcome %s\n", user.username); // Welcome msg
                           flag = 1;
                        }
                        else{
