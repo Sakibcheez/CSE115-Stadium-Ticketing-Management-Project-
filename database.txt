@@ -1,1 +1,11 @@
 
+
+	MatchNo.: 1
+	Name:Dhaka
+	Ticket quantity: 7
+	Ticket price: 13500 taka
+	General Ticket: 2
+	Internartional Ticket: 0
+	V.I.P Ticket: 5
+
+	Phone Number : 1950466202

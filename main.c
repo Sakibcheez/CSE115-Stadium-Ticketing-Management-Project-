@@ -10,9 +10,9 @@ int main(void)
 {
     int choice;
    //system("COLOR F0");
-    printSplashScreen();
-    sleep(3);
-    system("cls");
+   // printSplashScreen();
+    //sleep(3);
+   // system("cls");
 
 
     LoginProcess();

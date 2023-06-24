@@ -227,7 +227,7 @@ void ticket() // ticket purchase function
 }
 void option()
 {
-    printf("\t\tEnter match no to purchase ticket: \n");
+    printf("-----------------------Enter match no to purchase ticket: \n");
     scanf("%d",&matchno);
     printf("\n\tTicket Category's are: \n");
     printf("\n\t1.General\n");

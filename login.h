@@ -24,12 +24,12 @@ void LoginProcess(void)
     int flag = 0;
     int choice;
        printf("             \t\t\t*#*#*#*#*#*#*#*# WELCOME TO TICKET PURCHASE SHOP BD *#*#*#*#*#*#*#*#\n\n\n");
-       printf("             \t\t\t*#*#*#*#*#*#*#*#*#*#*#*# ASIA CUP 2023 *#*#*#*#*#*#*#*#\n\n\n");
+       printf("             \t\t\t\t*#*#*#*#*#*#*#*#*#*#*#*# ASIA CUP 2023 *#*#*#*#*#*#*#*#\n\n\n");
     while(1){
-            printf("-------------------------------\n");
-            printf("| 1.Login                     |\n");
-            printf("| 2.Create a new account      |\n");
-            printf("-------------------------------\n");
+            printf("\t\t\t-------------------------------\n");
+            printf("\t\t\t| 1.Login                     |\n");
+            printf("\t\t\t| 2.Create a new account      |\n");
+            printf("\t\t\t-------------------------------\n");
             printf("\n");
             printf("Enter your choice:");
             scanf("%d",&choice);
