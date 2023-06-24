@@ -1,1 +1,13 @@
 
+
+	MatchNo.: 1
+	Name:Sakib Ahmed
+	Ticket quantity: 3
+	Ticket price: 4000 taka
+	General Ticket: 1
+	Internartional Ticket: 1
+	V.I.P Ticket :1
+	Phone Number : 1950466202
+	Account Number: 2312546642
+	Bank Name: Dhaka Bank
+	Branch Name: Uttara

@@ -427,44 +427,34 @@ void payment()
     system("cls");
     homepage();
 }
-
 void View_info(void)
 {
-    FILE *ptr;
-    ptr = fopen("database.txt", "r");
 
-    if (ptr == NULL)
-    {
-        printf("Failed to open the file\n");
-        return;
-    }
+
+    FILE *ptr;
+
+    ptr = fopen("database.txt","r");
+
+    if(ptr == NULL)
+	{
+        printf("Failed to open the file \n");
+        return ;
+    	}
 
     char ch[500];
-    printf("Enter Your Phone number: ");
-    char phoneNumber[20];
-    for(int i =0 ; i< 11;i++){}
-    scanf("%c", &phoneNumber[i]);} // Read phone number as a string
 
-    while (fgets(ch, 500, ptr))
-    {
-        // Extract the phone number from the line
-        char currentPhoneNumber[20];
-        sscanf(ch, "%*[^,],%*[^,],%[^,\n]", currentPhoneNumber);
+    while(fgets(ch,500,ptr))
+	{
+        printf("%s",ch);
+        usleep(100000);
+    	}
 
-        if (strcmp(phoneNumber, currentPhoneNumber) == 0)
-        {
-            printf("%s", ch);
-            usleep(100000);
-            break;
-        }
-    }
+	    fclose(ptr);
 
-    fclose(ptr);
-
-    printf("\n\n\t\tPRESS ANY KEY TO GO TO HOMEPAGE....");
+    printf("\n\n\t\tPRESS ANY KEY GO  HOMEPAGE....");
     fflush(stdin);
     getchar();
-    homepage();
+    homepage();
 }
 
 
