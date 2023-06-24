@@ -6,7 +6,19 @@
 	General Ticket: 5
 	Internartional Ticket: 4
 	V.I.P Ticket :5
-	Phone Number : -1970170278
+	Phone Number : 1970170278
 	Account Number: 231465658
+	Bank Name: Dhaka Bank
+	Branch Name: Moghbazar
+
+	MatchNo.: 1
+	Name:Rakib ahmed
+	Ticket quantity: 14
+	Ticket price: 19000 taka
+	General Ticket: 5
+	Internartional Ticket: 4
+	V.I.P Ticket :5
+	Phone Number : 1969850365
+	Account Number: 231465625
 	Bank Name: Dhaka Bank
 	Branch Name: Moghbazar
