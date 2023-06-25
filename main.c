@@ -14,7 +14,9 @@ int main(void)
 {
     int choice;
   //  system("COLOR F0");
+    recursive_loading(0);
     printSplashScreen();
+    system("D:\\agwxa-h4723.jpg");
     sleep(3);
     system("cls");
 
@@ -23,6 +25,7 @@ int main(void)
 
     sleep(1);
     system("cls");
+    system("E:\\CSE115-Stadium-Ticketing-Management-Project-agwxa-h4723.jpg");
 
     homepage();
 
